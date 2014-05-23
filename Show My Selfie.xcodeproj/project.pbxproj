@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895E1125192CD8820046894D /* SelfieActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895E1124192CD8820046894D /* SelfieActivityController.m */; };
+		898A2631191B7D90005CEF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898A2630191B7D90005CEF93 /* Foundation.framework */; };
+		898A2633191B7D90005CEF93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898A2632191B7D90005CEF93 /* CoreGraphics.framework */; };
+		898A2635191B7D90005CEF93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898A2634191B7D90005CEF93 /* UIKit.framework */; };
+		898A263B191B7D90005CEF93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 898A2639191B7D90005CEF93 /* InfoPlist.strings */; };
+		898A263D191B7D90005CEF93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A263C191B7D90005CEF93 /* main.m */; };
+		898A2641191B7D90005CEF93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A2640191B7D90005CEF93 /* AppDelegate.m */; };
+		898A2644191B7D90005CEF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898A2642191B7D90005CEF93 /* Main.storyboard */; };
+		898A2649191B7D90005CEF93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898A2648191B7D90005CEF93 /* Images.xcassets */; };
+		898A2650191B7D90005CEF93 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898A264F191B7D90005CEF93 /* XCTest.framework */; };
+		898A2651191B7D90005CEF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898A2630191B7D90005CEF93 /* Foundation.framework */; };
+		898A2652191B7D90005CEF93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898A2634191B7D90005CEF93 /* UIKit.framework */; };
+		898A265A191B7D90005CEF93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 898A2658191B7D90005CEF93 /* InfoPlist.strings */; };
+		898A265C191B7D90005CEF93 /* Show_My_SelfieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A265B191B7D90005CEF93 /* Show_My_SelfieTests.m */; };
+		898A2667191B8029005CEF93 /* BlueGradientBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A2666191B8029005CEF93 /* BlueGradientBackgroundView.m */; };
+		89AAEDF4192DF54E000E0546 /* LeftBarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AAEDF3192DF54E000E0546 /* LeftBarButton.png */; };
+		89AAEDF8192DFFFA000E0546 /* LeftBarButton-White.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AAEDF6192DFFFA000E0546 /* LeftBarButton-White.png */; };
+		89AAEDFB192E00B8000E0546 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AAEDF9192E00B8000E0546 /* menu.png */; };
+		89AAEDFC192E00B8000E0546 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AAEDFA192E00B8000E0546 /* menu@2x.png */; };
+		89AAEDFE192E017C000E0546 /* LeftBarButton-Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AAEDFD192E017C000E0546 /* LeftBarButton-Blue.png */; };
+		89AAEE01192E05DD000E0546 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AAEE00192E05DD000E0546 /* ProfileTableViewController.m */; };
+		89AAEE04192E0629000E0546 /* SelfieContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AAEE03192E0629000E0546 /* SelfieContentViewController.m */; };
+		89B8F993191B9C3400069646 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B8F992191B9C3400069646 /* LoginViewController.m */; };
+		89B8F997191BA9A700069646 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B8F996191BA9A700069646 /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		898A2653191B7D90005CEF93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898A2625191B7D90005CEF93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898A262C191B7D90005CEF93;
+			remoteInfo = "Show My Selfie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		895E1123192CD8820046894D /* SelfieActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfieActivityController.h; sourceTree = "<group>"; };
+		895E1124192CD8820046894D /* SelfieActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfieActivityController.m; sourceTree = "<group>"; };
+		898A262D191B7D90005CEF93 /* Show My Selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Show My Selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		898A2630191B7D90005CEF93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		898A2632191B7D90005CEF93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		898A2634191B7D90005CEF93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		898A2638191B7D90005CEF93 /* Show My Selfie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Show My Selfie-Info.plist"; sourceTree = "<group>"; };
+		898A263A191B7D90005CEF93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		898A263C191B7D90005CEF93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		898A263E191B7D90005CEF93 /* Show My Selfie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Show My Selfie-Prefix.pch"; sourceTree = "<group>"; };
+		898A263F191B7D90005CEF93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		898A2640191B7D90005CEF93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		898A2643191B7D90005CEF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		898A2648191B7D90005CEF93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		898A264E191B7D90005CEF93 /* Show My SelfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Show My SelfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		898A264F191B7D90005CEF93 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		898A2657191B7D90005CEF93 /* Show My SelfieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Show My SelfieTests-Info.plist"; sourceTree = "<group>"; };
+		898A2659191B7D90005CEF93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		898A265B191B7D90005CEF93 /* Show_My_SelfieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Show_My_SelfieTests.m; sourceTree = "<group>"; };
+		898A2665191B8029005CEF93 /* BlueGradientBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueGradientBackgroundView.h; sourceTree = "<group>"; };
+		898A2666191B8029005CEF93 /* BlueGradientBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueGradientBackgroundView.m; sourceTree = "<group>"; };
+		89AAEDED192DD845000E0546 /* Museo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo.ttf; sourceTree = "<group>"; };
+		89AAEDF3192DF54E000E0546 /* LeftBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftBarButton.png; sourceTree = "<group>"; };
+		89AAEDF6192DFFFA000E0546 /* LeftBarButton-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBarButton-White.png"; sourceTree = "<group>"; };
+		89AAEDF9192E00B8000E0546 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		89AAEDFA192E00B8000E0546 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		89AAEDFD192E017C000E0546 /* LeftBarButton-Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBarButton-Blue.png"; sourceTree = "<group>"; };
+		89AAEDFF192E05DD000E0546 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		89AAEE00192E05DD000E0546 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
+		89AAEE02192E0629000E0546 /* SelfieContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfieContentViewController.h; sourceTree = "<group>"; };
+		89AAEE03192E0629000E0546 /* SelfieContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfieContentViewController.m; sourceTree = "<group>"; };
+		89B8F991191B9C3400069646 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		89B8F992191B9C3400069646 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		89B8F996191BA9A700069646 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898A262A191B7D90005CEF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A2633191B7D90005CEF93 /* CoreGraphics.framework in Frameworks */,
+				89B8F997191BA9A700069646 /* FacebookSDK.framework in Frameworks */,
+				898A2635191B7D90005CEF93 /* UIKit.framework in Frameworks */,
+				898A2631191B7D90005CEF93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A264B191B7D90005CEF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A2650191B7D90005CEF93 /* XCTest.framework in Frameworks */,
+				898A2652191B7D90005CEF93 /* UIKit.framework in Frameworks */,
+				898A2651191B7D90005CEF93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		898A2624191B7D90005CEF93 = {
+			isa = PBXGroup;
+			children = (
+				898A2636191B7D90005CEF93 /* Show My Selfie */,
+				898A2655191B7D90005CEF93 /* Show My SelfieTests */,
+				898A262F191B7D90005CEF93 /* Frameworks */,
+				898A262E191B7D90005CEF93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898A262E191B7D90005CEF93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898A262D191B7D90005CEF93 /* Show My Selfie.app */,
+				898A264E191B7D90005CEF93 /* Show My SelfieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898A262F191B7D90005CEF93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B8F996191BA9A700069646 /* FacebookSDK.framework */,
+				898A2630191B7D90005CEF93 /* Foundation.framework */,
+				898A2632191B7D90005CEF93 /* CoreGraphics.framework */,
+				898A2634191B7D90005CEF93 /* UIKit.framework */,
+				898A264F191B7D90005CEF93 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		898A2636191B7D90005CEF93 /* Show My Selfie */ = {
+			isa = PBXGroup;
+			children = (
+				898A263F191B7D90005CEF93 /* AppDelegate.h */,
+				898A2640191B7D90005CEF93 /* AppDelegate.m */,
+				898A2642191B7D90005CEF93 /* Main.storyboard */,
+				898A2665191B8029005CEF93 /* BlueGradientBackgroundView.h */,
+				898A2666191B8029005CEF93 /* BlueGradientBackgroundView.m */,
+				89B8F991191B9C3400069646 /* LoginViewController.h */,
+				89B8F992191B9C3400069646 /* LoginViewController.m */,
+				895E1123192CD8820046894D /* SelfieActivityController.h */,
+				895E1124192CD8820046894D /* SelfieActivityController.m */,
+				89AAEE02192E0629000E0546 /* SelfieContentViewController.h */,
+				89AAEE03192E0629000E0546 /* SelfieContentViewController.m */,
+				89AAEDFF192E05DD000E0546 /* ProfileTableViewController.h */,
+				89AAEE00192E05DD000E0546 /* ProfileTableViewController.m */,
+				898A2648191B7D90005CEF93 /* Images.xcassets */,
+				898A2637191B7D90005CEF93 /* Supporting Files */,
+			);
+			path = "Show My Selfie";
+			sourceTree = "<group>";
+		};
+		898A2637191B7D90005CEF93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89AAEDEE192DF232000E0546 /* Art */,
+				89AAEDEC192DD83E000E0546 /* Fonts */,
+				898A2638191B7D90005CEF93 /* Show My Selfie-Info.plist */,
+				898A2639191B7D90005CEF93 /* InfoPlist.strings */,
+				898A263C191B7D90005CEF93 /* main.m */,
+				898A263E191B7D90005CEF93 /* Show My Selfie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		898A2655191B7D90005CEF93 /* Show My SelfieTests */ = {
+			isa = PBXGroup;
+			children = (
+				898A265B191B7D90005CEF93 /* Show_My_SelfieTests.m */,
+				898A2656191B7D90005CEF93 /* Supporting Files */,
+			);
+			path = "Show My SelfieTests";
+			sourceTree = "<group>";
+		};
+		898A2656191B7D90005CEF93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				898A2657191B7D90005CEF93 /* Show My SelfieTests-Info.plist */,
+				898A2658191B7D90005CEF93 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89AAEDEC192DD83E000E0546 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				89AAEDED192DD845000E0546 /* Museo.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		89AAEDEE192DF232000E0546 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				89AAEDF9192E00B8000E0546 /* menu.png */,
+				89AAEDFA192E00B8000E0546 /* menu@2x.png */,
+				89AAEDF6192DFFFA000E0546 /* LeftBarButton-White.png */,
+				89AAEDFD192E017C000E0546 /* LeftBarButton-Blue.png */,
+				89AAEDF3192DF54E000E0546 /* LeftBarButton.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898A262C191B7D90005CEF93 /* Show My Selfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898A265F191B7D90005CEF93 /* Build configuration list for PBXNativeTarget "Show My Selfie" */;
+			buildPhases = (
+				898A2629191B7D90005CEF93 /* Sources */,
+				898A262A191B7D90005CEF93 /* Frameworks */,
+				898A262B191B7D90005CEF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Show My Selfie";
+			productName = "Show My Selfie";
+			productReference = 898A262D191B7D90005CEF93 /* Show My Selfie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		898A264D191B7D90005CEF93 /* Show My SelfieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898A2662191B7D90005CEF93 /* Build configuration list for PBXNativeTarget "Show My SelfieTests" */;
+			buildPhases = (
+				898A264A191B7D90005CEF93 /* Sources */,
+				898A264B191B7D90005CEF93 /* Frameworks */,
+				898A264C191B7D90005CEF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898A2654191B7D90005CEF93 /* PBXTargetDependency */,
+			);
+			name = "Show My SelfieTests";
+			productName = "Show My SelfieTests";
+			productReference = 898A264E191B7D90005CEF93 /* Show My SelfieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		898A2625191B7D90005CEF93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Himanshu;
+				TargetAttributes = {
+					898A264D191B7D90005CEF93 = {
+						TestTargetID = 898A262C191B7D90005CEF93;
+					};
+				};
+			};
+			buildConfigurationList = 898A2628191B7D90005CEF93 /* Build configuration list for PBXProject "Show My Selfie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 898A2624191B7D90005CEF93;
+			productRefGroup = 898A262E191B7D90005CEF93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898A262C191B7D90005CEF93 /* Show My Selfie */,
+				898A264D191B7D90005CEF93 /* Show My SelfieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898A262B191B7D90005CEF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AAEDF8192DFFFA000E0546 /* LeftBarButton-White.png in Resources */,
+				89AAEDF4192DF54E000E0546 /* LeftBarButton.png in Resources */,
+				89AAEDFE192E017C000E0546 /* LeftBarButton-Blue.png in Resources */,
+				898A2649191B7D90005CEF93 /* Images.xcassets in Resources */,
+				89AAEDFB192E00B8000E0546 /* menu.png in Resources */,
+				89AAEDFC192E00B8000E0546 /* menu@2x.png in Resources */,
+				898A263B191B7D90005CEF93 /* InfoPlist.strings in Resources */,
+				898A2644191B7D90005CEF93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A264C191B7D90005CEF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A265A191B7D90005CEF93 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898A2629191B7D90005CEF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A2667191B8029005CEF93 /* BlueGradientBackgroundView.m in Sources */,
+				898A2641191B7D90005CEF93 /* AppDelegate.m in Sources */,
+				898A263D191B7D90005CEF93 /* main.m in Sources */,
+				89AAEE01192E05DD000E0546 /* ProfileTableViewController.m in Sources */,
+				89B8F993191B9C3400069646 /* LoginViewController.m in Sources */,
+				895E1125192CD8820046894D /* SelfieActivityController.m in Sources */,
+				89AAEE04192E0629000E0546 /* SelfieContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A264A191B7D90005CEF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A265C191B7D90005CEF93 /* Show_My_SelfieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		898A2654191B7D90005CEF93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898A262C191B7D90005CEF93 /* Show My Selfie */;
+			targetProxy = 898A2653191B7D90005CEF93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		898A2639191B7D90005CEF93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898A263A191B7D90005CEF93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		898A2642191B7D90005CEF93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898A2643191B7D90005CEF93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		898A2658191B7D90005CEF93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898A2659191B7D90005CEF93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		898A265D191B7D90005CEF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		898A265E191B7D90005CEF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		898A2660191B7D90005CEF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Show My Selfie/Show My Selfie-Prefix.pch";
+				INFOPLIST_FILE = "Show My Selfie/Show My Selfie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		898A2661191B7D90005CEF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Show My Selfie/Show My Selfie-Prefix.pch";
+				INFOPLIST_FILE = "Show My Selfie/Show My Selfie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		898A2663191B7D90005CEF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Show My Selfie.app/Show My Selfie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Show My Selfie/Show My Selfie-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Show My SelfieTests/Show My SelfieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		898A2664191B7D90005CEF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Show My Selfie.app/Show My Selfie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Show My Selfie/Show My Selfie-Prefix.pch";
+				INFOPLIST_FILE = "Show My SelfieTests/Show My SelfieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898A2628191B7D90005CEF93 /* Build configuration list for PBXProject "Show My Selfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898A265D191B7D90005CEF93 /* Debug */,
+				898A265E191B7D90005CEF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898A265F191B7D90005CEF93 /* Build configuration list for PBXNativeTarget "Show My Selfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898A2660191B7D90005CEF93 /* Debug */,
+				898A2661191B7D90005CEF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898A2662191B7D90005CEF93 /* Build configuration list for PBXNativeTarget "Show My SelfieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898A2663191B7D90005CEF93 /* Debug */,
+				898A2664191B7D90005CEF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 898A2625191B7D90005CEF93 /* Project object */;
+}
